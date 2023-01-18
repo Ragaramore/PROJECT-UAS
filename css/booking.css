@@ -1,0 +1,35 @@
+.card2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #FEC260;
+  background-clip: border-box;
+  border: 0.125rem solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  box-shadow: 5px 10px black;
+
+}
+
+.font-weight-light {
+  color: #A10035;
+}
+
+.btn1 {
+  background-color: #A10035;
+  width: 100%;
+  height : 100%;
+  box-shadow: 2px 2px black;
+  margin-right: 10px;
+  margin: auto;
+}
+
+.box1 {
+  box-shadow: 5px 10px black;
+}
+
+#img1 {
+  width: 50%;
+  height: 50%;
+}

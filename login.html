@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Cloud Bed</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/atas.png" />
+    <link rel="stylesheet" href="css/css login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      .error {
+        display: none;
+      }
+    </style>
+</head>
+<body style="background-color: bisque;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <h2 class="text-center text-dark mt-5 fs-1 fw-bold"><a href="index.html" class="text-dark fw-bold">CLOUD BED</a></h2>
+            <div class="text-center mb-5 text-dark fs-2">LOGIN</div>
+                <div class="card my-5">
+                <form class="card-body cardbody-color p-lg-5">   
+                  <div class="text-center">
+                    <a href="index.html"><img src="assets/img/atas.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile"></a>
+                  </div>    
+                  <div class="mb-3">
+                    <label for="username" class="w-100 text-start fs-5 masthead-heading text-uppercase text-light">Username</label>
+                    <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="">
+                    <small id='error_username' class='text-danger error' >username salah</small>
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="w-100 text-start fs-5 masthead-heading text-uppercase text-light">password</label>
+                    <input type="password" class="form-control" id="password" placeholder="">
+                    <small id='error_password' class='text-danger error'>password salah</small>
+                  </div>
+                  <div class="text-center"><button type="submit" class="btn btn-danger px-5 mb-5 w-100 mt-2" onclick="login()">Login</button></div>
+                  <div id="emailHelp" class="form-text text-center mb-5 text-dark">Belum Punya akun?  <a href="register.html" class="text-dark fw-bold">Buat disini</a>
+                  </div>
+                  
+              </form>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="js/login autentikasi.js"></script>
+</body>
+</html>
