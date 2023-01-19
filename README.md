@@ -8,4 +8,10 @@ Disini kami menggunakan boostrap template yang dimana kami modif sebagus atau se
 
 Boostrap yang kami gunakan adalah 5.0.
 
+Anggota 
+Fikri 
+Shiddiq
+Ghifari
+Ishaq
+
 Terima Kasih.
